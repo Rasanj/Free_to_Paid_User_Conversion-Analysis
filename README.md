@@ -8,7 +8,7 @@ The data we are working with includes **three tables** storing information about
 
 
 Problem statement:
-- conversion rate for user who watched videos
+- conversion rate for user who watched videos ( atleast 1 video).
 - Average Duration Between Registration and First-Time Engagement
 - Average Duration Between First-Time Engagement and First-Time Purchase
 
