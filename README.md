@@ -3,4 +3,13 @@ A basic level SQL project to get an understanding of DATABASE and its OBJECTS
 
 This Calculating Free-to-Paid Conversion Rate with SQL project aims to estimate the fraction of students who purchase a subscription after starting a lecture, i.e., the free-to-paid conversion rate among students who’ve engaged with video content on the learning platform. Calculating several other key metrics and analyzing the results.
 
-The data we are working with includes three tables storing information about students’ registration dates, engagement dates, and subscription purchase dates.
+The data we are working with includes **three tables** storing information about students’ registration dates, engagement dates, and subscription purchase dates.
+
+
+
+Problem statement:
+- conversion rate for user who watched videos
+- Average Duration Between Registration and First-Time Engagement
+- Average Duration Between First-Time Engagement and First-Time Purchase
+
+
