@@ -47,4 +47,14 @@ select round(avg(diff_watch_reg),2) as avg_duration from ref_tbl;
 select avg(diff_purch_watch) as avg_duration from ref_tbl
 where diff_purch_watch >= 0 ;
 
+-- Renewed program the second month 
+select * from ref_tbl;
+with CTE as (
+select student_id , date_purchased, min(date_purchased)over(partition by student_id) as first_purchase 
+from student_purchases),
+ref_tb as 
+(select student_id ,date_purchased,first_purchase
+from CTE where date_purchased = Date_add(first_purchase,Interval 1 Month))
+select count(*) from ref_tb;
+
 
