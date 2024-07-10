@@ -11,5 +11,6 @@ Problem statement:
 - conversion rate for user who watched videos ( who atleast watched a video before first purchase).
 - Average Duration Between Registration and First-Time Engagement
 - Average Duration Between First-Time Engagement and First-Time Purchase
+- Find how many users renewed their subscription the 2nd month.
 
 
